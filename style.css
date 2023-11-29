@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.959);
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.985);
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar h1 {
+    color: white;
+    border: none;
+    font-family: Poppins;
+    margin-right: 20px;
+}
+
+.navbar h1 span {
+    color: chocolate;
+    width: 20px;
+    font-family: Nova Mono;
+}
+
+.navbar ul {
+    display: flex;
+    margin-right: 50px;
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: Ubuntu;
+}
+
+.navbar ul li {
+    margin-right: 50px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navbar ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 3px;
+}
+
+.navbar ul li a:hover {
+    color: chocolate;
+    border-bottom: 1px solid chocolate;
+}
+
+.navbar {
+    border-bottom: 3px solid rgb(255, 218, 6);
+    border: none;
+}
+
+/* hero image */
+
+.heroimg {
+    background-image: url(image\ menu/kopibg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+}
+
+.heroimg1 {
+    width: 300px;
+    height: 250px;
+    border: none;
+    padding: 100px 70px;
+}
+
+.heroimg1 h2 {
+    color: white;
+    font-size: 35px;
+    font-family: poppins;
+}
+
+.heroimg1 h2 .sp1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.heroimg1 h2 .sp2 h2 {
+    font-size: 35px;
+    margin-left: 60px;
+    color: white;
+    font-style: italic;
+    background-color: rgba(223, 191, 10, 0.723);
+    padding-left: 23px;
+    border-radius: 5px;
+}
+
+.heroimg .sp2 h2 span{
+    color: chocolate;
+    font-family: Ubuntu ;
+}
+
+
+.heroimg1 font {
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.heroimg1 input {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: goldenrod;
+    font-weight: 600;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.heroimg1 input:hover {
+    cursor: pointer;
+}
+
+/* Menu */
+.menu{
+    font-family: Ubuntu;
+    margin-top: 50px;
+    padding-top: 60px;
+}
+
+.menu h2{
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 35px;
+}
+
+.menu h2 span{
+    color: chocolate;
+}
+.menu .imgm{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+.menu .imgm .img1{
+    margin-left: 150px;
+    margin-right: 200px;
+    padding-left: 50px;
+}
+
+.menu .imgm .img2{
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+.menu .imgm .img3{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.menu .imgm .img4{
+    margin-left: 350px;
+}
+
+.menu .imgm .img5{
+    margin-left: 200px;
+}
+
+
+.menu .imgm img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.menu .imgm p{
+    text-align: center;
+}
+
+
+
+
+/* about */
+
+.about{
+    padding-top: 60px;
+}
+
+.about h2 {
+    font-size: 35px;
+    text-align: center;
+    color: chocolate;
+    font-family: poppins;
+}
+
+.aboutn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about img {
+    width: 350px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.fontabout {
+    width: 400px;
+    height: 330px;
+    border: 1px solid white;
+    border: none;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.fontabout h2 {
+    margin-top: 60px;
+    font-size: 25px;
+    color: white;
+}
+
+.fontabout p {
+    margin-left: 30px;
+    padding: 10px 5px;
+}
+
+.fontabout font {
+    display: inline-block;
+    border: 1px solid white;
+    border: none;
+    width: 320px;
+    height: 100px;
+    margin-left: 28px;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+
+/* Contact */
+
+.titlec {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-top: 60px;
+}
+
+.titlec h2 {
+    font-size: 30px;
+    font-family: poppins;
+    color: chocolate;
+}
+
+.titlec p{
+    font-size: 20px;
+    font-family: Roboto;
+    text-align: center;
+
+}
+
+.contact {
+    width: 850px;
+    height: 400px;
+    border: 1px solid white;
+    border: none;
+    margin: 10px 50px;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.contact .maps {
+    width: 450px;
+    border: 1px solid red;
+    border: none;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.maps iframe {
+    width: 450px;
+    height: 400px;
+    border-radius: 20px 0 0 20px;
+}
+
+.inputc {
+    width: 400px;
+    height: 400px;
+    border: 1px solid green;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(66, 65, 65);
+}
+
+.inputc h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: poppins;
+    margin-bottom: 10pxpx;
+    margin-top: 15px;
+}
+
+.inputc>input {
+    width: 350px;
+    height: 35px;
+    margin: 20px 25px;
+    background-color: rgb(27, 26, 26);
+    border: none;
+    border-radius: 3px;
+    padding-left: 20px;
+    outline: none;
+    color: rgb(244, 240, 240);
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.inputc .btn input {
+    width: 250px;
+    height: 30px;
+    margin-left: 70px;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    background-color: chocolate;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.inputc .btn input:hover {
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+nav{
+    height: 200pxpx;
+    border: 2px solid white;
+    border: none;
+    font-family: Nova Mono;
+    background-color: rgb(100, 42, 0);
+    margin-top: 50px;
+}
+
+
+
+
+.titlef h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.titlef h1 span{
+    color: chocolate;
+}
+
+
+.titlef>ul li{
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.titlef .linkf{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkf ul{
+    display: flex;
+}
+
+.linkf ul li{
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.linkf ul li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.linkf ul li a:hover{
+    color: chocolate;
+}
+.titlef .copyright{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
